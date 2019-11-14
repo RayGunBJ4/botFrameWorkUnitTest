@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\VirtualAssistantVSIX.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\VirtualAssistantVSIX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\VirtualAssistantVSIX.csproj",
+        "projectName": "VirtualAssistantVSIX",
+        "projectPath": "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\VirtualAssistantVSIX.csproj",
+        "packagesPath": "C:\\Users\\Ray.Ke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Ray.Ke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://www.myget.org/F/uipath": {},
+          "https://botbuilder.myget.org/F/aitemplates/api/v3/index.json": {},
+          "https://gallery.uipath.com/api/v2": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701",
+            "NU5125"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "StyleCop.Analyzers/1.1.0-beta008": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "StyleCop.Analyzers/1.1.0-beta008": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "StyleCop.Analyzers/1.1.0-beta008": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "StyleCop.Analyzers/1.1.0-beta008": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "StyleCop.Analyzers/1.1.0-beta008": {
+      "sha512": "wooFpXhCyYaY554qO5BGgLjIJmXcZ10RYTO2FLhpOGhAyOw9Xvd82E+M9CSrRtBHc+uJXtnnr+OVOBGIJqa3TQ==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.1.0-beta008",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "analyzers/dotnet/cs/de-DE/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/en-GB/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es-MX/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr-FR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl-PL/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
+        "stylecop.analyzers.1.1.0-beta008.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "StyleCop.Analyzers >= 1.1.0-beta008"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ray.Ke\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\VirtualAssistantVSIX.csproj",
+      "projectName": "VirtualAssistantVSIX",
+      "projectPath": "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\VirtualAssistantVSIX.csproj",
+      "packagesPath": "C:\\Users\\Ray.Ke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ray.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\VSIX\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Ray.Ke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://www.myget.org/F/uipath": {},
+        "https://botbuilder.myget.org/F/aitemplates/api/v3/index.json": {},
+        "https://gallery.uipath.com/api/v2": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU1701",
+          "NU5125"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "StyleCop.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.1.0-beta008, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

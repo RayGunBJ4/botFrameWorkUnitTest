@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="virtualassistanttest-8e35" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Ray\.Ke\\Documents\\VATest\\botframework-solutions\\templates\\Virtual-Assistant-Template\\csharp\\Sample\\VirtualAssistantSample\\obj\\Release\\netcoreapp2\.2\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
